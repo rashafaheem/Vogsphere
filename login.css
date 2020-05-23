@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(login.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0.625rem;
+  }
+  
+  .login h2 {
+    margin: 0 0 1.875rem;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login .loginBox {
+    position: relative;
+  }
+  
+  .login .loginBox input {
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .login .loginBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .login .loginBox input:focus ~ label,
+  .login .loginBox input:valid ~ label,
+  .login .loginBox input:not([value=""]) ~ label {
+    top: -1.125rem;
+    left: 0;
+    color: #03a9f4;
+    font-size: 0.75rem;
+  }
+  
+  .login input[type="submit"] {
+    border: none;
+    background: #03a9f4;
+    color: #ffffff ;
+    font-weight: 100;
+    width: 100%;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .login input[type="submit"]:hover {
+    background-color: #1cb1f5;
+    color: #ffffff ;
+        font-weight: 700;
+        letter-spacing: 3px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.3s ease 0s;
+  }
+  
