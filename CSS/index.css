@@ -42,11 +42,15 @@ a.menu:link, a:visited {
 a.menu:hover, a:active {
   background-color:rgba(0, 0, 0, 0.568);
 }
-
+ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
 .blogBut {
   position: absolute;
   left: 43%;
-  top: 50%;
+  top: 65%;
   color: #fff;
   text-transform: uppercase;
   background: #ed3330;
@@ -64,7 +68,7 @@ a.menu:hover, a:active {
   box-shadow: 5px 40px -10px rgba(0, 0, 0, 0);
   transition: all 0.4s ease 0s;
 }
-.quote {
+.col-sm-8 {
   position: absolute;
   left: 39%;
   top: 25%;
